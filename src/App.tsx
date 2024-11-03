@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Introduction from "./components/Introduction";
 import Header from "./components/layout/Header";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Header />
         <Hero />
       </header>
+      <Introduction />
     </>
   )
 }

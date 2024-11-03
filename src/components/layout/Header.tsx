@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <nav className="flex justify-between  py-8 px-[300px]">
+        <nav className="flex justify-between  py-8 px-[300px] sticky top-0 z-30">
             <div className="flex items-center text-white">
                 <div className="flex items-center pr-[60px] space-x-[6px]">
                     <img src="/images/frame.png" alt="Restaurent Logo" />

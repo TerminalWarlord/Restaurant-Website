@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <nav className="flex justify-between  py-8 px-[300px] sticky top-0 z-30">
+        <nav className="flex justify-between py-8 mx-[300px] sticky top-0 z-30 w-[1320px]">
             <div className="flex items-center text-white">
                 <div className="flex items-center pr-[60px] space-x-[6px]">
                     <img src="/images/frame.png" alt="Restaurent Logo" />
@@ -10,7 +10,7 @@ const Header = () => {
                     </div>
 
                 </div>
-                <ul className="list-none flex space-x-10 text-[15px]" style={{ fontFamily: '"Raleway", sans-serif' }}>
+                <ul className="list-none flex w-[484px] text-[15px] font-medium justify-between" style={{ fontFamily: '"Raleway", sans-serif' }}>
                     <li>
                         <a href="/">Home</a>
                     </li>
@@ -31,7 +31,7 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-            <button className="uppercase px-6 py-2.5 bg-[#FEBF00] font-bold line leading-6">Book a table</button>
+            <button className="uppercase px-6 py-2.5 bg-[#FEBF00] font-bold line leading-6" style={{ fontFamily: '"Roboto", sans-serif' }}>Book a table</button>
         </nav>
     )
 }

@@ -4,7 +4,7 @@ import Header from "./components/layout/Header";
 
 const App = () => {
   return (
-    <>
+    <main>
       <header
         className=""
         style={{
@@ -18,7 +18,7 @@ const App = () => {
         <Hero />
       </header>
       <Introduction />
-    </>
+    </main>
   )
 }
 

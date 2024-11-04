@@ -1,8 +1,8 @@
-import Batch from "./Batch"
+import Badge from "./Badge"
 
 const Hero = () => {
     return (
-        <section className="flex justify-between py-32 px-[300px] relative ">
+        <section className="flex justify-between py-[130px] mx-[300px] relative w-[1320px]">
             <div className="flex items-center">
                 <div className="flex flex-col absolute">
                     <div className="flex flex-col gap-4">
@@ -18,9 +18,9 @@ const Hero = () => {
             </div>
             <div className="relative z-0">
                 <img src="/images/food.png" alt="food" className="w-[700px] h-[649px]" />
-                <img src="/images/vector.svg" alt="food" className="absolute -top-8 -right-7 w-[45px] h-[45px]" />
+                <img src="/images/vector.svg" alt="food" className="absolute -top-9 -right-7 w-[47px] h-[47px]" />
                 <div className="absolute -right-14 bottom-0">
-                    <Batch />
+                    <Badge />
                 </div>
 
             </div>
